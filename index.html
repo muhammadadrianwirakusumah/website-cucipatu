@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Cucipatu | Most Expert Shoes Care</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="assets/logo-dark.png"
+                alt="logo"
+                class="nav__logo-dark"
+              />
+              <img
+                src="assets/logo-white.png"
+                alt="logo"
+                class="nav__logo-white"
+              />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">BERANDA</a></li>
+          <li><a href="#special">LATAR BELAKANG</a></li>
+          <li><a href="#menu">PRODUK</a></li>
+          <li><a href="#event">TESTIMONI</a></li>
+          <li><a href="#contact">KONTAK KAMI</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2>Clean | Persistence | Trustworthy</h2>
+          <h1>CUCIPATU<br /><span>MOST EXPERT SHOES CARE</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container banner__container" id="special">
+      <div class="banner__card">
+        <img src="assets/banner-1.png" alt="Banner 1" />
+        <p>KENALI TIM KAMI</p>
+      </div>
+      <div class="banner__card">
+        <img src="assets/banner-2.png" alt="Banner 1" />
+        <p>LATAR BELAKANG</p>
+      </div>
+      <div class="banner__card"> 
+        <a href="https://maps.app.goo.gl/SpvgcnoekXTKML4F6" target="_blank">
+          <img src="assets/banner-3.png" alt="Banner 1" />
+
+        </a>
+        
+        <p>NILAI</p>
+      </div>
+    </section>
+
+    <section class="section__container order__container" id="menu">
+      <h3>PRODUK DAN JASA</h3>
+      <h2 class="section__header">PILIH DAN NIKMATI</h2>
+      <p class="section__description">
+        Berikut produk dan layanan dari Cucipatu: pembersihan sepatu dan tas yang cepat, aman, dan menyeluruh. 
+        Kami juga menyediakan semprotan penyegar sepatu dengan berbagai aroma. 
+        Temukan aroma favorit dan kenyamanan Anda bersama Cucipatu!
+      </p>
+      
+<!-- Kontainer untuk tombol -->
+<div class="menu-button-container">
+  <button id="menuButton" class="btn">Our Menu</button>
+</div>
+
+
+<!-- Modal -->
+<div id="menuModal" class="modal">
+  <!-- Konten Modal -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img id="menuImage" src="assets/menu.png" alt="Menu" style="width: 720px; height: 1280px;">
+  </div>
+</div>
+
+      <div class="order__grid">
+        <div class="order__card">
+          <img src="assets/order-1.png" alt="order" />
+          <h4>Jasa Laundry Tas dan Sepatu</h4>
+          <p>
+            Kami menyediakan laundry tas dan sepatu dengan pembersihan mendalam dan layanan 
+            khusus seperti Unyellowing, Reglue, dan Repaint untuk sepatu, serta Deep Clean dan Retouch untuk tas. 
+            Kami menggunakan teknik canggih dan bahan berkualitas untuk hasil terbaik.
+          </p>
+          <a href="https://wa.link/0e0xo0" target="_blank">
+          <button class="btn">ORDER NOW</button>
+        </a>
+        </div>
+        <div class="order__card">
+          <img src="assets/order-2.png" alt="order" />
+          <h4>Helmet laundry services</h4>
+          <p>
+            Kami menyediakan layanan laundry tas dan sepatu yang cepat, aman, dan menyeluruh. 
+            Untuk sepatu, kami menawarkan pembersihan mendalam untuk sneakers, sepatu kulit, dan sepatu putih, serta layanan khusus seperti Unyellowing, Reglue, dan Repaint. 
+            Untuk tas, kami menyediakan layanan Deep Clean dan Retouch. Dengan teknik canggih dan bahan berkualitas
+          </p>
+          <a href="https://wa.link/0e0xo0" target="_blank">
+          <button class="btn">ORDER NOW</button>
+        </a>
+        </div>
+        <div class="order__card">
+          <img src="assets/order-3.png" alt="order" />
+          <h4>Spray Penyegar Sepatu</h4>
+          <p>
+            Semprotan penyegar sepatu kami tersedia dalam berbagai aroma segar seperti vanilla dan peach, 
+            memberikan kesegaran sepanjang hari untuk sepatu Anda.
+          </p>
+          <a href="https://shopee.co.id/cucipatusby?entryPoint=ShopBySearch&searchKeyword=cucipatu" target="_blank">
+          <button class="btn">ORDER NOW</button>
+        </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container event__container" id="event">
+      <div class="event__content">
+        <div class="event__image">
+          <div class="carousel">
+            <img src="assets/event.png" alt="event" class="carousel__image" id="slideImage"/>
+          </div>
+        </div>
+        <div class="event__details">
+          <h3>Temukan</h3>
+          <h2 class="section__header">TESTIMONI</h2>
+          <p class="section__description">
+            Cucipatu sudah dipercaya oleh banyak konsumen di Surabaya dan sekitarnya. 
+            Dari semprotan penyegar sepatu hingga layanan laundry sepatu, produk dan jasa 
+            kami telah digunakan oleh berbagai kalangan. Kini giliran kamu! #MostExpertShoesCare
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <script>
+      // Mengatur gambar-gambar yang akan ditampilkan dalam carousel
+      const images = ["assets/event.png", "assets/event-1.png"];
+      let currentImageIdx = 0;
+    
+      function changeImage() {
+        currentImageIdx++;  // Naikkan indeks untuk mendapatkan gambar selanjutnya
+        if (currentImageIdx >= images.length) currentImageIdx = 0;  // Kembali ke gambar pertama jika sudah mencapai akhir array
+        document.getElementById('slideImage').src = images[currentImageIdx];  // Ganti sumber gambar
+      }
+    
+      // Set interval pergantian gambar setiap 3 detik
+      setInterval(changeImage, 3000);
+    </script>
+   
+   
+        
+    </div>
+    <section class="reservation" id="contact">
+      <div class="section__container reservation__container">
+        <h3>INFO LEBIH LANJUT</h3>
+        <h2 class="section__header">HUBUNGI KAMI</h2>
+        <div class="form__wrapper">
+          <form action="/">
+            <input type="text" placeholder="Name" />
+            <input type="email" placeholder="Email" />
+            <input type="tel" placeholder="Phone Number" />
+            <button class="btn" type="submit">SUBMIT</button>
+          </form>
+          <div class="whatsapp__section">
+            <p>Ingin konsultasi lebih lanjut?</p>
+            <a href="https://wa.me/081249219046" class="btn whatsapp__btn" target="_blank">Contact Us on WhatsApp</a>
+          </div>
+        </div>
+      </div>
+      <img src="assets/reservation-bg-1.png" alt="reservation" class="reservation__bg-1" />
+      <img src="assets/reservation-bg-2.png" alt="reservation" class="reservation__bg-2" />
+    </section>
+    
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="assets/logo-white.png" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+            <strong>Cucipatu</strong> tercipta dari keprihatinan terhadap kebutuhan perawatan sepatu yang semakin meningkat di kalangan masyarakat modern. 
+            Di tengah gaya hidup yang serba cepat dan kesadaran yang semakin tinggi akan pentingnya penampilan, 
+            Cucipatu ada untuk mengisi celah dalam industri laundry dengan fokus khusus pada sepatu.
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Teluk Kumai Timur no 41, Surabaya
+              </li>
+              <li>
+                <span><i class="ri-mail-fill"></i></span>
+                cucipatusby@gmail.com
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="https://www.instagram.com/cucipatusby/" target="_blank"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="https://www.instagram.com/cucipatusby/" target="_blank"><i class="ri-instagram-fill"></i></a>
+              <a href="https://www.instagram.com/cucipatusby/" target="_blank"><i class="ri-twitter-fill"></i></a>
+              <a href="https://www.instagram.com/cucipatusby/" target="_blank"><i class="ri-whatsapp-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © Cucipatu. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+    
+  </body>
+
+    
+ 
+</html>
