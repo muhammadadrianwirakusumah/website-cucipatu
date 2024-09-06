@@ -688,6 +688,71 @@ nav {
   }
 }
 
+/* Media Query untuk smartphone */
+@media (max-width: 768px) {
+  .carousel-container, .carousel img {
+    width: 100%;  /* Gunakan lebar penuh untuk carousel pada perangkat mobile */
+    height: auto; /* Tinggi otomatis berdasarkan lebar */
+  }
+
+  .section__container, .event__content {
+    padding: 1rem; /* Kurangi padding pada perangkat kecil */
+  }
+
+  .section__header {
+    font-size: 2rem; /* Ukuran font yang lebih kecil untuk header */
+    line-height: 2.25rem; /* Sesuaikan line height */
+  }
+
+  .nav__links {
+    flex-direction: column; /* Tumpuk link secara vertikal */
+  }
+
+  .header__content, .reservation__container form {
+    width: 90%; /* Sesuaikan lebar konten pada perangkat kecil */
+    margin: auto; /* Pusatkan konten */
+  }
+
+  .header__content h1, .event__details h3 {
+    font-size: 1.75rem; /* Kecilkan font pada judul */
+  }
+
+  .order__grid, .footer__content {
+    grid-template-columns: 1fr; /* Tampilkan grid item dalam satu kolom */
+  }
+
+  .order__card img, .banner__card img {
+    width: 100%; /* Atur lebar gambar agar sesuai dengan kontainer */
+  }
+  
+  .nav {
+    display: block; /* Atur ulang tata letak navigasi untuk mobile */
+  }
+  
+  .nav__menu__btn {
+    display: block; /* Tampilkan tombol menu pada mobile */
+  }
+
+  .nav__links {
+    display: none; /* Sembunyikan link saat tidak aktif */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9); /* Tambahkan latar gelap */
+    align-items: center; /* Pusatkan link secara vertikal */
+    justify-content: center;
+  }
+
+  .nav__links.open {
+    display: flex; /* Tampilkan link saat menu dibuka */
+  }
+}
+
+/* Umumnya, tambahkan lebih banyak media queries untuk berbagai ukuran layar jika perlu */
+
+
 /* Perbaikan wrapper form agar elemen berada di satu baris */
 .form__wrapper {
   display: flex;
